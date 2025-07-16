@@ -1,5 +1,6 @@
 # group-nine-minesweeper
-group project
+
+### group project
 
 *Project Overview*
 
