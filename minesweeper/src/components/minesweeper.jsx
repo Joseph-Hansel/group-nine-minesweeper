@@ -1,13 +1,16 @@
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Welcome from "./welcome"
 import GameScreen from "./gamescreen"
 
 function MineSweeper(){
     return (
-        <div>
+        <BrowserRouter>
             <h1>MINI MINESWEEPER</h1>
-            <Welcome />
-            <GameScreen />
-        </div>
+            <Routes>
+                <Route path="/" element={<Welcome />}/>
+                <Route path="/play" element={<GameScreen />}/>
+            </Routes>
+        </BrowserRouter>
     );
 };
 
