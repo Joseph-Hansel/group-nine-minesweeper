@@ -1,10 +1,11 @@
 import { useState } from 'react';
+import MineSweeper from "./components/minesweeper"
 
 function App() {
 
     return (
         <div>
-          <h1>From the development branch.</h1>
+          <MineSweeper />
         </div>
     );
 };
